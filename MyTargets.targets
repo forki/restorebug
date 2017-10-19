@@ -1,0 +1,6 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="MyRestore" BeforeTargets="_GenerateDotnetCliToolReferenceSpecs;_GenerateProjectRestoreGraphPerFramework;_GenerateRestoreGraphWalkPerFramework;CollectPackageReferences" >
+
+    <Error Text="Explcit restore error." />
+  </Target>
+</Project>
